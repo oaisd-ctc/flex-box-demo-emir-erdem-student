@@ -1,0 +1,12 @@
+body {
+    background-color: #C8D3D5;
+    color: #011627;
+}
+#flex-container {
+    flex-direction: column;
+    text-align: center;
+}
+#flex-wrap-container {
+    flex-wrap: wrap;
+    display: flex;
+}
