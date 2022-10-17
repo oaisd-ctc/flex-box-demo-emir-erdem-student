@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
 	<title>Document</title>
 </head>
 <body>
@@ -43,12 +43,13 @@
             </div>
         </article>
     </div>
+    <hr>
     <div>
         <article class="flex-container-and-item">
             <h2>Flex Item Order</h2>
             <p>Using the flex item order property you are able to use an inline style with a declaration that reads "order: [number]"
                 which places that nested div in whichever order you declared it. 
-                <br/>In this case I applied "order: 3" to my div numbered 5, which placed it in 3rd shown below.
+                <br>In this case I applied "order: 3" to my div numbered 5, which placed it in 3rd shown below.
             </p>
             <div class="flex-containers" id="item-order-order">
                 <div class="nested-item" style="order: 2">1</div>
@@ -61,7 +62,7 @@
             <p>
                 The flex grow property allows you to determine how much a certain item grows in relation to the others. In this case 
                 number 2 and 5 grow a ton when zooming out. 
-                <br/>Even when zoomed in a bit, you can realize that they are bigger than others. 
+                <br>Even when zoomed in a bit, you can realize that they are bigger than others. 
             </p>
             <div class="flex-containers">
                 <div class="nested-item">1</div>
@@ -80,8 +81,17 @@
                 <div class="nested-item" style="flex-basis: 300px">2</div>
                 <div class="nested-item">3</div>
             </div>
+            <h2>Extra Credit</h2>
+            <p>
+                In the extra credit example, I used the hover psuedo-class and increased the flex value with a transition so that it would make the 
+                <br> illusion that the container you are hovering over is growing.
+            </p>
+            <div id="extra-credito-ayudame">
+                <div class="extra-boxy">1</div>
+                <div class="extra-boxy">2</div>
+                <div class="extra-boxy">3</div>
+            </div>
         </article>
     </div>
-
 </body>
 </html>
